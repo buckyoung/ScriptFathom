@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.pitt.bcy3.scriptfathom.SettingsActivity"
+>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+        <LinearLayout
+        android:id="@+id/color_palette"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:orientation="vertical"
+            >
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@color/black"
+                android:contentDescription="black"
+                android:onClick="colorClicked"
+                />
+
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@color/red"
+                android:contentDescription="red"
+                android:onClick="colorClicked"
+                />
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@color/green"
+                android:contentDescription="green"
+                android:onClick="colorClicked"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@color/blue"
+                android:contentDescription="blue"
+                android:onClick="colorClicked"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@color/cyan"
+                android:contentDescription="cyan"
+                android:onClick="colorClicked"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@color/yellow"
+                android:contentDescription="yellow"
+                android:onClick="colorClicked"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
