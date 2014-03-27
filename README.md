@@ -5,7 +5,7 @@
 Script Fathom is a simple Android application created for CS1635.
 </p>
 
-<p><a href="https://github.com/buckyoung/ScriptFathom/tree/master/src/main/java/edu/pitt/bcy3/scriptfathom">Click here for Java Source Files</a> (a shortcut to the SRC files buried deep in this repo)</p>
+<h2><a href="https://github.com/buckyoung/ScriptFathom/tree/master/src/main/java/edu/pitt/bcy3/scriptfathom">Click here for Java Source Files</a> (a shortcut to the SRC files buried deep in this repo)</h2>
 
 <p>
 Script Fathom utilizes <a href="http://cwritepad.appspot.com">CloudWrite</a> for most
